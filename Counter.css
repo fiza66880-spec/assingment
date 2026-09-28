@@ -1,0 +1,71 @@
+div{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+margin-top:100px ;
+margin-left: auto;
+background: rgb(36, 36, 187);
+margin-right: auto;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgb(218, 135, 235);
+font-family: 'Segoe UI', sans-serif;
+}
+
+h1:first-child{
+font-size: 28px;
+color: #0c0a0a;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 10px;
+
+}
+h1 :nth-child(2) {
+font-size: 80px;
+color: #007bff;
+margin: 10px 0 20px 0;
+
+}
+
+button{
+padding: 12px 30px;
+margin: 8px;
+font-size: 18px;
+font-weight: bold;
+border: none;
+cursor: pointer;
+color: white;
+transition: 0.3s;
+width: 140px;
+
+}
+
+button:first-of-type{
+background: #28a745;
+border-radius: 12px;
+}
+
+button:first-of-type:hover {
+background: #218838;
+transform:  scale(1.05);
+border-radius: 12px;
+}
+
+button:last-of-type{
+    background: #73deec;
+    border-radius: 12px;
+}
+
+button:last-of-type:hover{
+background: #c82333;
+transform: scale(1.05);
+
+}
+
+
+
+
+
+
